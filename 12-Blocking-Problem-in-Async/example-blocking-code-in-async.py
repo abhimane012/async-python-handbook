@@ -15,7 +15,7 @@ async def task1():
     # - No other coroutine can run during this time
     # - Even if other tasks are ready, they must WAIT
 
-    time.sleep(10)  # blocks everything for 3 seconds
+    time.sleep(10)  # blocks everything for 10 seconds
 
     print("Task 1: finished (event loop was blocked during this time)")
 
